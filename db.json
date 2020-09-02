@@ -8,6 +8,42 @@
     { "id": 1, "body": "some comment", "postId": 1 },
     { "id": 2, "body": "some comment", "postId": 1 }
   ],
+  "invoice":[
+    {
+	  "owner": {
+	    "name" : "Gayan Hewa",
+	    "email": "gayanhewa@gmail.com",
+	    "address1": "#19-291, Block 622C",
+	    "address2": "Punggol Central, 823622",
+	    "address3": "Singapore",
+	    "logo": "http://gayanhewa.info/invoicer/asset/logo.png"
+	  },
+	  "receiver": {
+	    "name": "Invoicee Company Pte Ltd",
+	    "contact_name": "Pearl R. Vest",
+	    "email": "PearlRVest@dayrep.com",
+	    "address1": "4349 Eagles Nest Drive",
+	    "address2": "Sacramento, CA 95814",
+	    "address3": "United States"
+	  },
+	  "items":[
+	    {
+	      "description": "Invoice for 1st - 15th Oct",
+	      "qty": 15,
+	      "unit-price": 40,
+	      "total": 600
+	    },
+	    {
+	      "description": "Invoice for 16th- 30th Oct",
+	      "qty": 10,
+	      "unit-price": 40,
+	      "total": 400
+	    }
+	  ],
+	  "due_date": "21st, Oct 2015",
+	  "created_date": "15th, Oct 2015"
+	}
+    ]
   "profile": {
     "name": "typicode"
   }
